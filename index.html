@@ -1,84 +1,46 @@
-<head>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
- </head>
-<body>
-
-    <style>
-        .footer .grid-child {
-            -webkit-box-align: center;
-      -ms-flex-align: center;
-      -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-      align-items: center;
-      justify-content: center;
-      padding: 2.5rem 0.5em;
-  }
-  .footer-icons {
-      background-color: transparent;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      padding: 10px;
-    margin-right:auto;
-    margin-left: auto;
-  }
-  
-  .divider {
-      width: 50px;  /* Adjust as needed */
-      height: 1px;
-      background-color: #7b5ab2;
-      margin: 0 10px;
-  }
-  
-  .social-icons {
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      gap: 10px;
-  }
-  
-  .social-icons i {
-      color: #7b5ab2;
-      font-size: 24px;
-  }
-  
-  .social-icons i:hover {
-      opacity: 0.7;
-  }
-  
-  /* Media Query for Tablets and Small Screens */
-  @media screen and (max-width: 768px) {
-      .social-icons i {
-          font-size: 20px;
-      }
-  }
-  
-  /* Media Query for Extra Small Screens and Mobiles */
-  @media screen and (max-width: 480px) {
-      .social-icons i {
-          font-size: 16px;
-      }
-  }
-  </style>
- 
-      <center>
-        <div  class="footer-icons">
-          <div class="divider"></div>
-          <div class="social-icons">
-             <a href="https://www.facebook.com/#" target="_blank" ><i class="fab fa-facebook-f"></i></a>
-            <a href="https://www.instagram.com/a#" target="_blank" > <i class="fab fa-instagram"></i></a>
-            <a href="https://www.youtube.com/#" target="_blank">  <i class="fab fa-youtube"></i></a>
-     <a href="https://www.linkedin.com/company/#/" target="_blank">     <i class="fab fa-linkedin-in"></i></a>
-   
-           
-          </div>
-          <div class="divider"></div>
-      </div>
-  
-   <div class="copyright-section">
-    Copyright © 2023 <a href="https://tricks.se" target="_blank" >Company name</a>. All Rights Reserved.
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script defer src="scripts.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
+  </head>
+  <body>
+    <div class="content">
+      <!-- Add a long div to make the screen scroll -->
+      <div class="long-div"></div>
     </div>
-  </center>
-
-  
-</body>
+    <footer>
+      <div class="footer-icons">
+        <div class="divider"></div>
+        <div class="social-icons">
+          <a href="https://www.facebook.com/#" target="_blank"
+            ><i class="fab fa-facebook-f"></i
+          ></a>
+          <a href="https://www.instagram.com/a#" target="_blank"
+            ><i class="fab fa-instagram"></i
+          ></a>
+          <a href="https://www.youtube.com/#" target="_blank"
+            ><i class="fab fa-youtube"></i
+          ></a>
+          <a href="https://www.linkedin.com/company/#/" target="_blank"
+            ><i class="fab fa-linkedin-in"></i
+          ></a>
+        </div>
+        <div class="divider"></div>
+      </div>
+      <div class="copyright-section">
+        Copyright © 2024
+        <a href="https://tricks.se" target="_blank">Company name</a>. All Rights
+        Reserved.
+      </div>
+    </footer>
+    <a href="#" class="go-to-top"><i class="fas fa-arrow-up"></i></a>
+  </body>
+</html>

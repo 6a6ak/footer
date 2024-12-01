@@ -1,0 +1,91 @@
+body {
+  background-color: #f0f0f0; /* Light grey background */
+  color: #333; /* Dark text color for better contrast */
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.footer-icons {
+  background-color: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.divider {
+  height: 1px;
+  background-color: #7b5ab2;
+  margin: 0 10px;
+}
+
+.social-icons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.social-icons i {
+  color: #7b5ab2; /* Ensure the icons have a visible color */
+  font-size: 24px;
+}
+
+.social-icons i:hover {
+  opacity: 0.7;
+}
+
+/* Media Query for Tablets and Small Screens */
+@media screen and (max-width: 768px) {
+  .social-icons i {
+    font-size: 20px;
+  }
+}
+
+/* Media Query for Extra Small Screens and Mobiles */
+@media screen and (max-width: 480px) {
+  .social-icons i {
+    font-size: 16px;
+  }
+}
+
+footer {
+  background-color: rgb(212, 210, 210); /* Light grey background */
+  padding: 20px;
+  text-align: center;
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  font-size: 14px; /* Smaller font size */
+  color: #666; /* Lighter font color */
+}
+
+footer a {
+  color: #7b5ab2; /* Link color */
+  text-decoration: none; /* Remove underline */
+}
+
+footer a:hover {
+  text-decoration: underline; /* Underline on hover */
+}
+
+.go-to-top {
+  position: fixed;
+  bottom: 60px; /* Adjusted to be above the footer */
+  right: 20px;
+  background-color: #7b5ab2;
+  color: white;
+  padding: 10px;
+  border-radius: 50%;
+  text-align: center;
+  display: none; /* Initially hidden */
+}
+
+.go-to-top i {
+  font-size: 20px;
+}
